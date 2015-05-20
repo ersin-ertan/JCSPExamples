@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import org.jcsp.lang.Channel;
 import org.jcsp.lang.One2OneChannel;
 
 
@@ -16,6 +17,7 @@ public class MainActivity extends Activity{
 		setContentView(R.layout.activity_main);
 
 		One2OneChannel o;
+		Channel c;
 	}
 
 	@Override
